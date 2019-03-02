@@ -1,0 +1,19 @@
+body{
+    background: url("../images/R-28848-1169305849.jpeg.jpg");
+    font-size: 16px;
+    color: white;
+    
+}
+
+form {
+    float: right;
+}
+
+button {
+    margin: 5px;
+}
+
+
+.row{
+    float: left;
+}
