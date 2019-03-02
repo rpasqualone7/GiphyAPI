@@ -43,7 +43,7 @@ $(document).ready(function(){
          var buttonVal = $(this).data('type');
         //  console.log(buttonVal);
     
-         var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + buttonVal + "&api_key=VXiAf2zNT74RKKgX2IcHhMdJ4bgc59ki&limit=10";
+         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttonVal + "&api_key=VXiAf2zNT74RKKgX2IcHhMdJ4bgc59ki&limit=10";
     
          $.ajax({url: queryURL, method: "GET"})
     
